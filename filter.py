@@ -1,4 +1,4 @@
-## Reads an excel, filter a field and creates new excel for each filtered group.
+## Reads an excel using Pandas, filter a field and creates new excel for each filtered group.
 
 import pandas as pd
 
