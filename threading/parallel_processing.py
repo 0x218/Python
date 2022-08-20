@@ -3,7 +3,7 @@
 Python Global Interpreter Lock (GIL), a mutex that protects Python objects, prevents threads within same process (multi-threading) to execute in parallel.
 Ref: https://wiki.python.org/moin/GlobalInterpreterLock
 
-Hence to take advantage of multi-core machines, use multiprocessing and run threds in parallel.  It will spawn multiple OS processes.
+Hence to take advantage of multi-core machines, use multiprocessing and run threads in parallel and spawn multiple OS processes.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 This program  does three tasks - 
 #1. Create images.          #2. Move images to ./out folder.          #3.  Retain threashold in ./out folder and delete rest of files.
